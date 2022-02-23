@@ -10,10 +10,10 @@ module.exports = {
           // components: './src/presentation/components',
           navigation: './src/presentation/navigation',
           screens: './src/presentation/screens',
-          // services: './src/infrastructure',
           assets: './src/assets',
           slices: './src/application/slices',
-          selectors: './src/application/selectors'
+          selectors: './src/application/selectors',
+          api: './src/infrastructure/api'
         }
       }
     ],
