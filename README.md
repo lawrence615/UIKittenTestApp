@@ -1,7 +1,14 @@
 ## UIKittenTestApp
+Experimenting with UI Kitten framework while also increasing React Native knowledge.
 
+The app uses a List to load dynamically generated data and allows user to load more when end of scroll is reached.
 
 ## How to run the app
+
+Clone app in your machine
+```
+$ git clone <git url>
+```
 
 Move into the app
 
@@ -21,10 +28,9 @@ OR
 yarn start --port=8082 --reset-cache
 ```
 
-*NB:* Make sure you have a device connected e.g. Android phone
+*NB:* To run the device, make sure you have a device connected e.g. Android phone
 
-To check:
-
+To confirm this:
 
    ```
    $ adb devices
