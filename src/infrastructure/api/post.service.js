@@ -1,19 +1,13 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-export const fetchPosts = new createAsyncThunk('posts/fetchMorePosts', async (currentPostsCount) => {
-
-  if (currentPostsCount == 100) return
+export const fetchPosts = new createAsyncThunk('posts/fetchMorePosts', async () => {
 
   let newArr = []
-  let maxPosts = currentPostsCount + 10
-
-  for (let index = currentPostsCount; index < maxPosts; index++) {
+  for (let index = 0; index < 10; index++) {
     newArr.push({
       title: 'New Title for Item ',
       description: 'Description for Item',
     })
   }
-
-
   return newArr
 })
