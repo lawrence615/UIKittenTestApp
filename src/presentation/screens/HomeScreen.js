@@ -27,8 +27,8 @@ const HomeScreen = ({ navigation }) => {
 
   const renderItem = ({ item, index }) => (
     <ListItem
-      title={`${item.title} ${index + 1}`}
-      description={`${item.description} ${index + 1}`}
+      title={item.name}
+      description={item.message}
       accessoryLeft={renderItemIcon}
       accessoryRight={renderItemAccessory}
     />

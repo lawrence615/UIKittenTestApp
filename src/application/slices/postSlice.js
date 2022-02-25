@@ -17,8 +17,8 @@ const postSlice = createSlice({
     },
     setInitialPosts: (state, action) => {
       const initialData = new Array(10).fill({
-        title: 'Title for Item',
-        description: 'Description for Item',
+        name: 'Title for Item',
+        message: 'Description for Item',
       });
 
       state.posts = initialData
