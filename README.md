@@ -5,18 +5,18 @@ The app uses a List to load dynamically generated data and allows user to load m
 
 ## How to run the app
 
-Clone app in your machine
+Step 1. Clone app in your machine
 ```
 $ git clone <git url>
 ```
 
-Move into the app
+Step 2. Move into the app
 
 ```bash
 $ cd <app>
 ```
 
-Start metro server on one tab
+Step 3. Start metro server on one tab
 
 ```sh
 react-native start --port=8082
@@ -26,6 +26,12 @@ OR
 
 ```sh
 yarn start --port=8082 --reset-cache
+```
+
+Step 4. Open another tab and run app on Android phone
+
+```sh
+npx react-native run-android --port=8082
 ```
 
 *NB:* To run the device, make sure you have a device connected e.g. Android phone
@@ -38,9 +44,3 @@ To confirm this:
    List of devices attached
    PY2MF5WQZCJ device         # Physical device
    ```
-
-Open another tab and run app on Android phone
-
-```sh
-npx react-native run-android --port=8082
-```
