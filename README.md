@@ -1,4 +1,4 @@
-## UIKittenTestApp
+# UIKittenTestApp
 Experimenting with UI Kitten framework while also increasing React Native knowledge.
 
 The app uses a List to load dynamically generated data and allows user to load more when end of scroll is reached.
