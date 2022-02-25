@@ -63,7 +63,7 @@ const HomeScreen = ({ navigation }) => {
   const renderListFooter = (isLoading, allLoaded) => (
     <Layout style={styles.footer}>
       {isLoading ? <Text style={styles.footerText}>Loading More...</Text> : null}
-      {allLoaded ? <Text style={styles.footerText}>All posts loaded...</Text> : null}
+      {allLoaded ? <Text style={styles.footerText}>All posts loaded.</Text> : null}
     </Layout>
   )
 
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     margin: 8,
   },
   footer: {
-    padding: 15,
+    padding: 20,
   },
   footerText: {
     fontWeight: '600',
