@@ -19,19 +19,19 @@ $ cd <app>
 Step 3. Start metro server on one tab
 
 ```sh
-react-native start --port=8082
+$ react-native start --port=8082
 ```
 
 OR
 
 ```sh
-yarn start --port=8082 --reset-cache
+$ yarn start --port=8082 --reset-cache
 ```
 
 Step 4. Open another tab and run app on Android phone
 
 ```sh
-npx react-native run-android --port=8082
+$ npx react-native run-android --port=8082
 ```
 
 *NB:* To run the device, make sure you have a device connected e.g. Android phone
