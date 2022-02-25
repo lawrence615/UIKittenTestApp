@@ -48,8 +48,8 @@ const HomeScreen = ({ navigation }) => {
     </Button>
   );
 
-  const onEndReached = (allLoaded) => {
-    if (!allLoaded) {
+  const onEndReached = (isAllLoaded) => {
+    if (!isAllLoaded) {
 
       dispatch(setLoadMore())
 
