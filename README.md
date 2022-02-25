@@ -44,3 +44,6 @@ To confirm this:
    List of devices attached
    PY2MF5WQZCJ device         # Physical device
    ```
+
+   ## How it works
+   ![how it works vid](https://user-images.githubusercontent.com/3224157/155660600-57075ce2-8ded-423c-bb90-6ae6b04ff4c8.gif)
